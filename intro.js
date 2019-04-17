@@ -19,4 +19,9 @@ obj.foo.bar
 obj['foo']['bar']
 obj['age']
 
-function
+function sum(num1, num2) { //curly brases define a block
+    return num1 + num2
+}
+
+var add = sum(2, 3) //call
+sum // referance
