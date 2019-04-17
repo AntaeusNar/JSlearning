@@ -63,3 +63,18 @@ for (var i = 0; i < arr.length; i = i +1){
     console.log(arr[i])
 }
 
+// operators
+=   //asignment not EQUAL
+==  //equal value not worred about type (int vs str)
+=== //strict equal
+!= //not equal loose
+!== // not equal strict
+
++ // overloaded operator, int addition, str cantactination (with corroision)
+-, *, / //int only
+% //modulus -reminder after division
+&& //and
+|| //or
+. //dot operator
+
+//ndn for more operators
