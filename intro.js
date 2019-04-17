@@ -23,5 +23,10 @@ function sum(num1, num2) { //curly brases define a block
     return num1 + num2
 }
 
-var add = sum(2, 3) //call
-sum // referance
+var add = sum(2, 3) //call equal 5
+sum // referance can be used to pass into another function
+
+function foo(fn){ //callback functions - can pass functions into something that hasn't happened yet - asycn
+    fn(2,3)
+}
+
