@@ -45,3 +45,21 @@ if () {
 
 switch() //switch statement
 
+//loops
+
+var counter = 0
+while (counter <= 10){
+    //runs while truthy
+    console.log(counter)
+    counter = counter +1
+}
+
+for (var counter = 1; counter <= 10; counter = counter + 1) {
+    console.log(counter)
+}
+
+var arr = [1,2,3,4,5,6,9]
+for (var i = 0; i < arr.length; i = i +1){
+    console.log(arr[i])
+}
+
