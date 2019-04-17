@@ -30,3 +30,18 @@ function foo(fn){ //callback functions - can pass functions into something that 
     fn(2,3)
 }
 
+
+// conditional statements if, then - truthy vs falsey
+
+//falsey - false, '', 0 , null , undefined
+//everything else is truthy
+if () {
+
+} else if () {
+
+} else {
+
+}
+
+switch() //switch statement
+
